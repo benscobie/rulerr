@@ -1,0 +1,20 @@
+logs
+*.log
+.pnpm-debug.log*
+node_modules/
+*.tsbuildinfo
+.turbo
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+
+# dotenv environment variable files
+.env
+.env.local

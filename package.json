@@ -1,0 +1,26 @@
+{
+  "name": "@rulerr/api",
+  "version": "0.0.1",
+  "homepage": "https://rulerr.dev",
+  "author": {
+    "name": "Ben Scobie",
+    "url": "https://benscobie.com"
+  },
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "format": "turbo run format",
+    "lint": "turbo run lint",
+    "start": "turbo run start",
+    "test": "turbo run test",
+    "test:watch": "turbo run test:watch",
+    "test:e2e": "turbo run test:e2e",
+    "test:cov": "turbo run test:cov"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  }
+}

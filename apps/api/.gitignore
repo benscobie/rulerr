@@ -5,3 +5,8 @@
 
 # Tests
 coverage
+
+# Database
+src/database/generated
+dev.db
+dev.db-journal
